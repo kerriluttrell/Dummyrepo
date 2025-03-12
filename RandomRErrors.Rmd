@@ -14,3 +14,20 @@ install.apckages('gitcreds')
 librarY(gitcreds)
 gitcreds_set()
 ```
+
+
+## When you knwo whatever you have on your local r is the correct thing that needs to go to git
+
+git -f (#to force merge to remote)
+git push -force
+
+
+## When your pushes/commits are not wokring and you get ahead by too many commits and your github stalls
+
+git reset HEAD~2 #= for how many commits you want to remove
+
+## SHould a file stay on the cloud or stay on your local machine
+git status (will tell you which files are giving you the problems)
+git add "file"
+
+##
